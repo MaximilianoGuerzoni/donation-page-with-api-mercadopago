@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <title>Pagina de Donaciones</title>
+</head>
+<body>
+    <h1 id="product-description">Pagina de Donación Coca Cola <span class="span-img"> <img src="/coca-cola.png" alt=""></span></h1>
+    <p>Elige cuantas Coca Colas donar</p>
+    <p><small>Coca Cola $50</small></p>
+
+    
+    <div class="button-container">
+    <button id="donate-3">3</button>
+    <button id="donate-5">5</button>
+    <button id="donate-10">10</button>
+    </div>
+    <p>O introduce el monto que desea donar</p>
+    <input type="number"  id="amount-input" min="0">
+    <p>Total a pagar: <span id="total-amount">0</span>$</p>
+ 
+    <button id="checkout-btn">Checkout</button>
+
+    <div id="button-checkout"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
